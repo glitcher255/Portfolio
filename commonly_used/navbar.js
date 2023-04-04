@@ -1,5 +1,5 @@
 let nav = `
-<a href="../_Portfolio/index.html" id="div16" style="outline: unset;">
+<a href="../index.html" id="div16" style="outline: unset;">
 <img id="IMG23" src="https://i.postimg.cc/5NgvdLRv/Untitled-2.png"
         style="outline: unset;"></a>
 </a>
@@ -13,7 +13,7 @@ let nav = `
     <div id="div18" style="outline: unset;">
     <!--  <div id="div19" class="nav_btns" style="outline: unset;">Something</div> -->
      <div id="div20" class="nav_btns" style="outline: unset;">More</div> 
-        <a href="../_PORTFOLIO/Zabout3_COMPLETE/about.html" id="div21" class="nav_btns" style="outline: unset;">About</a>
+        <a href="../Zabout3_COMPLETE/about.html" id="div21" class="nav_btns" style="outline: unset;">About</a>
     </div>
 </div>
 `
