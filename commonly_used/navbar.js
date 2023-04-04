@@ -13,7 +13,7 @@ let nav = `
     <div id="div18" style="outline: unset;">
     <!--  <div id="div19" class="nav_btns" style="outline: unset;">Something</div> -->
      <div id="div20" class="nav_btns" style="outline: unset;">More</div> 
-        <a href="../Zabout3_COMPLETE/about.html" id="div21" class="nav_btns" style="outline: unset;">About</a>
+        <a href="../Zabout3_COMPLETE/about" id="div21" class="nav_btns" style="outline: unset;">About</a>
     </div>
 </div>
 `
