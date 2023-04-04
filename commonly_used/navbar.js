@@ -1,5 +1,5 @@
 let nav = `
-<a href="../index.html" id="div16" style="outline: unset;">
+<a href="../INDEX COMPLETE/home.html" id="div16" style="outline: unset;">
 <img id="IMG23" src="https://i.postimg.cc/5NgvdLRv/Untitled-2.png"
         style="outline: unset;"></a>
 </a>

@@ -17,5 +17,3 @@ for (let x = 0; x < document.getElementsByClassName("div7").length; x++) {
         }
     })
 }
-
-var content = document.querySelector('link[rel="import"]').import;
