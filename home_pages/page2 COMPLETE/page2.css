@@ -221,7 +221,7 @@ body {
     position: absolute;
 }
 
-.div502parent{ 
+.div502parent {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -234,14 +234,16 @@ body {
 #div502 {
     animation: card_flip;
     animation-duration: 0.7s;
-    animation-fill-mode:forwards;
+    animation-fill-mode: forwards;
     animation-play-state: paused;
     visibility: hidden;
     border-color: #000000;
 }
 
 @keyframes card_flip {
-   to {transform: rotateY(0deg); }
+    to {
+        transform: rotateY(0deg);
+    }
 
 }
 
@@ -260,17 +262,24 @@ body {
 }
 
 @keyframes card_hover {
-    0% {transform: rotateY(0deg); outline-style:solid; outline-color:#1AAB28;}
-    100% {transform: rotateY(0deg); outline-style:solid; outline-color:#1AAB28;}
+    0% {
+        transform: rotateY(0deg);
+        outline-style: solid;
+        outline-color: #1AAB28;
+    }
+
+    100% {
+        transform: rotateY(0deg);
+        outline-style: solid;
+        outline-color: #1AAB28;
+    }
 }
 
 #div16 {
     animation: fade_out 0.5s;
 }
 
-@keyframes fade_out {
-    
-}
+@keyframes fade_out {}
 
 @media only screen and (max-width: 768px) {
     .div502 {
@@ -279,7 +288,7 @@ body {
 
     #div507 {
         background-color: rgba(0, 0, 0, 0.7);
-    color: #1AAB28;
+        color: #1AAB28;
     }
 
     #div4 {
