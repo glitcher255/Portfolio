@@ -1,0 +1,298 @@
+* {
+    box-sizing: border-box;
+    /* -webkit-user-select: none; /* Safari */
+    /*-moz-user-select: none; /* Firefox */
+    /*-ms-user-select: none; /* IE10+/Edge */
+    user-select: none;
+    /* Standard */
+}
+
+
+
+body {
+    margin: 0;
+    left: 0px;
+    top: 0px;
+    position: relative;
+    overflow-x: hidden;
+}
+
+#div1 {
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    padding: 30px;
+}
+
+
+
+#div4 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    height: 1250px;
+    width: 100%;
+    border-style: none;
+    border-width: 1px;
+    margin: 0;
+    padding: 30px 10% 30px 10%;
+    background-color: #106B19;
+    row-gap: 0;
+    column-gap: 20px;
+}
+
+#btn1 {
+    display: flex;
+    top: 40%;
+}
+
+#div7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 270px;
+    width: 350px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 2px;
+    background-color: #106B19;
+    border-color: #adf7ab;
+}
+
+#div7:active {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 2px;
+    background-color: #1CB82B;
+    border-color: #adf7ab;
+}
+
+#div7clone_of_div7502 {}
+
+#div7:hover {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 2px;
+    background-color: #1CB82B;
+    border-color: #adf7ab;
+}
+
+.class_of_div502509 {}
+
+#div503 {
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    padding: 30px;
+}
+
+#div504 {
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    padding: 30px;
+}
+
+#IMG505 {
+    height: 100%;
+    width: 100%;
+}
+
+#div506 {
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    padding: 30px;
+}
+
+#div507 {
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-width: 1px;
+    margin: -49px 0 0 0;
+    position: absolute;
+    font-family: Comfortaa;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0), rgba(0, 0, 0, 0.5));
+}
+
+#div508 {
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    padding: 30px;
+}
+
+#div502 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-width: 1px;
+    position: relative;
+    overflow: hidden;
+}
+
+#div29 {
+    height: 100%;
+    width: 100%;
+    border-width: 1px;
+    overflow: hidden;
+}
+
+#div31 {
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    padding: 30px;
+}
+
+#div32 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-width: 1px;
+    padding: 30px;
+}
+
+#div33 {
+    width: 100%;
+    border-width: 1px;
+    padding: 30px;
+}
+
+#IMG34 {
+    right: 0;
+    top: 0;
+    height: 40px;
+    width: 40px;
+    border-width: 1px;
+    position: absolute;
+}
+
+#div1000 {
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-width: 1px;
+    margin: -49px 0 0 0;
+    position: absolute;
+    font-family: Comfortaa;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0), rgba(0, 0, 0, 0.5));
+}
+
+#IMG39 {
+    right: 0;
+    top: 0;
+    height: 40px;
+    width: 40px;
+    border-width: 1px;
+    position: absolute;
+}
+
+#IMG40 {
+    height: 50px;
+    width: 50px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#IMG41 {
+    right: 0;
+    top: 0;
+    height: 40px;
+    width: 40px;
+    border-width: 1px;
+    position: absolute;
+}
+
+.div502parent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-width: 1px;
+    position: relative;
+    overflow: hidden;
+    perspective: 4000px;
+}
+
+#div502 {
+    animation: card_flip;
+    animation-duration: 0.7s;
+    animation-fill-mode: forwards;
+    animation-play-state: paused;
+    visibility: hidden;
+    border-color: #000000;
+}
+
+@keyframes card_flip {
+    to {
+        transform: rotateY(0deg);
+    }
+
+}
+
+#div4 {
+    perspective: 4000px;
+}
+
+#div502:hover {
+    animation: card_hover 0.5s;
+    animation-fill-mode: forwards;
+}
+
+#div502:hover #div507 {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #1AAB28;
+}
+
+@keyframes card_hover {
+    0% {
+        transform: rotateY(0deg);
+        outline-style: solid;
+        outline-color: #1AAB28;
+    }
+
+    100% {
+        transform: rotateY(0deg);
+        outline-style: solid;
+        outline-color: #1AAB28;
+    }
+}
+
+#div16 {
+    animation: fade_out 0.5s;
+}
+
+@keyframes fade_out {}
+
+@media only screen and (max-width: 768px) {
+    .div502 {
+        height: 550px;
+    }
+
+    #div507 {
+        background-color: rgba(0, 0, 0, 0.7);
+        color: #1AAB28;
+    }
+
+    #div4 {
+        gap: 5px;
+        flex-wrap: wrap;
+    }
+}
