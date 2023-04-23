@@ -293,4 +293,8 @@ a:link {
     #div21 {
         overflow-y: hidden;
     }
+
+    .input_container {
+        margin: 0;
+    }
 }
