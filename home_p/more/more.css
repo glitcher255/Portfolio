@@ -1,0 +1,19 @@
+.main_parag {
+    font-family: Comfortaa;
+    color: white;
+    line-height: 25px;
+}
+
+#div4 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    border-style: none;
+    border-width: 1px;
+    margin: 0;
+    padding: 30px 20% 30px 20%;
+    background-color: #106B19;
+    row-gap: 0;
+}

@@ -12,7 +12,7 @@ let nav = `
         
     <div id="div18" style="outline: unset;">
     <!--  <div id="div19" class="nav_btns" style="outline: unset;">Something</div> -->
-     <div id="div20" class="nav_btns" style="outline: unset;">More</div> 
+     <a href="../more/index.html" id="div20" class="nav_btns" style="outline: unset;">More</a> 
         <a href="../about/about.html" id="div21" class="nav_btns" style="outline: unset;">About</a>
     </div>
 </div>
@@ -23,10 +23,10 @@ document.getElementById("div2").innerHTML = nav
 
 //keys for finding keys, values for values and enteries for both
 let searchables = {
-    1: ["./about3_COMPLETE/about.html", "oh my god is this a search?"],
-    2: "WTF",
-    3: ["./something", "Portfolio"],
-    4: ["./wow", "wow man this is amazing"]
+    1: ["../about/about.html", "about"],
+    3: ["../port/port.html", "portfolio"],
+    4: ["../learn/learn.html", "learn"],
+    5: ["../more/index.html", "more"],
 }
 
 //Create a element from searchable arary
@@ -54,11 +54,20 @@ document.getElementById("INPUT17").addEventListener("keyup", function() {
     }
 })
 
+let dontrun = true
 //Show and hide a_container (dropdown)
 document.getElementById("INPUT17").addEventListener("focus", function() {
     document.getElementsByClassName("a_container")[0].style.display = "flex"
 })
-
-document.getElementById("INPUT17").addEventListener("blur", function() {
+// document.getElementById("INPUT17").addEventListener("blur", function() {
+//     setTimeout(() => {
+//         document.getElementsByClassName("a_container")[0].style.display = "none"
+//     }, 110);
+// })
+document.addEventListener("click", function() {
+    console.log(event.target)
+    if (event.target != document.getElementById("INPUT17")) {
     document.getElementsByClassName("a_container")[0].style.display = "none"
+    }
+
 })
